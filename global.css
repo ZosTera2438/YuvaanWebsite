@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "compote";
+  src: url(fonts/compote/OTF/Compote-Free.otf) format('openType');
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+   /* font sizes */
+   --font-size-3xs: 15px;
+   --font-size-2xs: 22.5px;
+   --font-size-xs: 24px;
+   --font-size-sm: 36px;
+   --font-size-base: 40px;
+   --font-size-lg: 48px;
+   --font-size-xl: 100px;
+   --font-size-2xl: 120px;
+   --font-size-3xl: 150px;
+ 
+   /* Colors */
+   --color-gray-100: #d9d9d9;
+   --color-gray-200: #b8b7b7;
+   --color-gray-300: #2c2825;
+   --color-gold: #facd38;
+   --color-white: #fff;
+   --color-beige: #ded6c4;
+ 
+   /* border radiuses */
+   --br-sm: 12px;
+   --br-md: 46px;
+   --br-lg: 55px;
+}
+body {
+  font-family: sans-serif;
+}
