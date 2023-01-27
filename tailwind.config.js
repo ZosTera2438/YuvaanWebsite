@@ -9,7 +9,11 @@ module.exports = {
         'gold':'#facd38',
         'deepGold':'#d4af37',
         'blackText':'#2c2825'
-      }
+      },
+      fontFamily: {
+        'compoteFont': ['compote','sans-serif'],
+        'latoFont':['Lato','sans-serif'],
+      },
     },
   },
   // ...

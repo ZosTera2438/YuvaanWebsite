@@ -7,42 +7,59 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <div class="bg-blackText">
-      <nav>
-        <img src="assets/yuvaan logo.svg" alt="" />
-        <img src="assets/menu.svg" alt="" />
-      </nav>
+    <div class="bg-blackText z-30 bg-opacity-75 overflow-x-hidden text-latoFont ">
       <div
-        class="bg-[url('assets/bgTexture.png')] bg-opacity-70 bg-cover bg-repeat-y w-full p-16"
+        class="bg-[url('assets/bgTexture1.png')] bg-cover bg-repeat-y w-full p-16"
       >
-        <div id="about" class="py-20 h-screen">
-          <h1 class="text-8xl text-right pr-20 text-deepGold mb-12">
+        <nav>
+          <img src="assets/yuvaan logo.svg" alt="" />
+          <img src="assets/menu.svg" alt="" />
+        </nav>
+        <!-- <section id="home" class="md:w-[calc(100%+${device-width}px)]">
+          <video  autoplay muted loop src="assets/clips/joker.mp4" class="w-[calc(100%+${device-width}px)] object-cover rotate-2"></video>
+        </section> -->
+      </div>
+      <div
+        class="bg-[url('assets/bgTexture.png')] bg-cover bg-repeat-y w-full py-16"
+      >
+        <div id="about" class="py-20 h-screen px-16">
+          <h1
+            class="text-5xl md:text-8xl w-full text-center md:text-right font-compoteFont md:pr-20 text-deepGold md:mb-12"
+          >
             Ek Sunhera <br />
-            <span class="mr-12"> Karvaan</span>
+            <span class="md:mr-12 font-compoteFont">Karvaan</span>
           </h1>
           <div
-            class="bg-[url('assets/vector.svg')] object-contain -translate-y-10 -translate-x-5 absolute w-11/12 h-[150rem]"
+            class="bg-[url('assets/vector.svg')] object-contain bg-repeat-y md:-translate-y-10 md:-translate-x-5 absolute w-11/12 h-[250rem] md:h-[150rem]"
           ></div>
-          <p class="text-xl w-2/4 z-10 px-28 mt-20 text-[#fff] right-0 absolute">
+          <p
+            class="text-base md:text-xl font-extralight w-full md:w-2/4 z-10 px-16 md:px-28 mt-12 md:mt-20 text-[#fff] right-0 absolute"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
             erat posuere, pulvinar velit et, ornare lorem.
           </p>
         </div>
-        <section id="guest" class="w-full flex flex-col items-center py-20">
-          <h1 class="underline text-8xl text-deepGold text-center">Events</h1>
-          <div
-            class="flex flex-row w-full justify-between mt-12 items-center h-4/5 p-8"
+        <section id="guest" class="w-full flex flex-col items-center md:py-20">
+          <h1
+            class="underline text-5xl md:text-8xl text-deepGold font-compoteFont text-center"
           >
-            <p class="text-white w-1/4 z-10 text-5xl">Anuv Jain</p>
+            Events
+          </h1>
+          <div
+            class="flex flex-row w-full justify-between mt-12 items-center md:h-4/5 p-8"
+          >
+            <p class="text-white w-1/4 z-10 text-3xl md:text-5xl">Anuv Jain</p>
             <img src="assets/pic1@2x.png" alt="" class="w-3/5 z-50" />
           </div>
           <div
-            class="flex flex-row w-full justify-between items-center h-4/5 p-8"
+            class="flex flex-row w-full justify-between items-center md:h-4/5 p-8"
           >
             <img src="assets/pic2@2x.png" alt="" class="w-3/5 z-50" />
-            <p class="text-white w-1/4 z-10 text-5xl">Anuv Jain</p>
+            <p class="text-white w-1/4 z-10 text-3xl md:text-5xl">Anuv Jain</p>
           </div>
-          <button class="text-blackText rounded-md m-12 z-50 bg-deepGold p-3 w-44">
+          <button
+            class="text-blackText text-sm rounded-md m-12 z-50 bg-deepGold p-3 w-32 md:w-44"
+          >
             Event Schedule
           </button>
         </section>
