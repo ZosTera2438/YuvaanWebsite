@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @font-face {
   font-family: "compote";
-  src: url(fonts/compote/OTF/Compote-Free.otf) format("openType");
+  src: url(../public/assets/fonts/compote/OTF/Compote-Free.otf);
   font-weight: normal;
 }
 /* 
