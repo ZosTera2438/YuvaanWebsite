@@ -7,46 +7,46 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <div class="">
+    <div class="bg-blackText">
       <nav>
         <img src="assets/yuvaan logo.svg" alt="" />
         <img src="assets/menu.svg" alt="" />
       </nav>
-      <section
-        class="bg-[url('assets/bgTexture.png')] bg-cover bg-repeat-y w-full p-16"
+      <div
+        class="bg-[url('assets/bgTexture.png')] bg-opacity-70 bg-cover bg-repeat-y w-full p-16"
       >
-        <div class="py-20">
-          <h1 class="text-6xl text-center text-deepGold mb-12">
+        <div id="about" class="py-20 h-screen">
+          <h1 class="text-8xl text-right pr-20 text-deepGold mb-12">
             Ek Sunhera <br />
-            Karvaan
+            <span class="mr-12"> Karvaan</span>
           </h1>
           <div
-            class="bg-[url('assets/vector.svg')] absolute w-full h-[50rem] -z-10 -translate-y-16"
+            class="bg-[url('assets/vector.svg')] object-contain -translate-y-10 -translate-x-5 absolute w-11/12 h-[150rem]"
           ></div>
-          <p class="text-lg w-1/2 right-0 relative text-[#fff]">
+          <p class="text-xl w-2/4 z-10 px-28 mt-20 text-[#fff] right-0 absolute">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
             erat posuere, pulvinar velit et, ornare lorem.
           </p>
         </div>
-        <div class="w-full">
-          <div class="w-full">
-            <h1 class="underline text-6xl text-deepGold text-center">Events</h1>
-            <div
-              class="flex flex-row w-full justify-center items-center h-4/5 p-8"
-            >
-              <p class="text-white w-1/2 text-5xl text-center">Anuv Jain</p>
-              <img src="assets/pic1@2x.png" alt="" class="w-1/2 object-fill" />
-            </div>
-            <div
-              class="flex flex-row w-full justify-center items-center h-4/5 p-8"
-            >
-              <img src="assets/pic2@2x.png" alt="" class="w-1/2 object-fill" />
-              <p class="text-white w-1/2 text-5xl text-center">Anuv Jain</p>
-            </div>
-            <button class="text-blackText rounded-md bg-deepGold">Event Schedule</button>
+        <section id="guest" class="w-full flex flex-col items-center py-20">
+          <h1 class="underline text-8xl text-deepGold text-center">Events</h1>
+          <div
+            class="flex flex-row w-full justify-between mt-12 items-center h-4/5 p-8"
+          >
+            <p class="text-white w-1/4 z-10 text-5xl">Anuv Jain</p>
+            <img src="assets/pic1@2x.png" alt="" class="w-3/5 z-50" />
           </div>
-        </div>
-      </section>
+          <div
+            class="flex flex-row w-full justify-between items-center h-4/5 p-8"
+          >
+            <img src="assets/pic2@2x.png" alt="" class="w-3/5 z-50" />
+            <p class="text-white w-1/4 z-10 text-5xl">Anuv Jain</p>
+          </div>
+          <button class="text-blackText rounded-md m-12 z-50 bg-deepGold p-3 w-44">
+            Event Schedule
+          </button>
+        </section>
+      </div>
     </div>
   </body>
 </html>
