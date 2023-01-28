@@ -9,7 +9,7 @@ module.exports = {
       },
       fontFamily: {
         compoteFont: ["compote", "sans-serif"],
-        latoFont: ["Lato", "sans-serif"],
+        // latoFont: ["Lato", "sans-serif"],
       },
       animation: {
         wheelSize: "wheelSize 3s ",
