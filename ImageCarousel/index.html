@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/DLF.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/indianoillogo.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/Swiggy.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/GAIL.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/dominos.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/redbull.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/sunburn.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/IGL.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/zebronics.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/shopclues.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/dainik.jpg" />
+        </div>
+
+        <!--  -->
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/DLF.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/indianoillogo.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/Swiggy.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/GAIL.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/dominos.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/redbull.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/sunburn.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/IGL.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/zebronics.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/shopclues.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./Images/SponsersImages/dainik.jpg" />
+        </div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
