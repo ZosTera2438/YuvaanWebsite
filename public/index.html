@@ -7,22 +7,58 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body>
-    <div class="bg-blackText z-30 bg-opacity-75 overflow-x-hidden text-latoFont ">
-      <div
-        class="bg-[url('assets/bgTexture1.png')] bg-cover bg-repeat-y w-full p-16"
-      >
-        <nav>
+    <div class="bg-blackText bg-opacity-75 overflow-hidden text-latoFont">
+      <!-- <div
+        class="bg-[url('assets/bgTexture1.png')] bg-cover bg-repeat-y w-full"
+      > -->
+      <img src="assets/bgTexture1.png" alt="" class="h-screen w-full absolute">
+        <!-- <nav>
           <img src="assets/yuvaan logo.svg" alt="" />
           <img src="assets/menu.svg" alt="" />
-        </nav>
-        <!-- <section id="home" class="md:w-[calc(100%+${device-width}px)]">
-          <video  autoplay muted loop src="assets/clips/joker.mp4" class="w-[calc(100%+${device-width}px)] object-cover rotate-2"></video>
-        </section> -->
-      </div>
+        </nav> -->
+        <section
+          id="home"
+          class="w-[100%] h-screen overflow-hidden flex justify-center items-baseline"
+        >
+          <h1
+            class="text-5xl md:text-7xl w-full absolute text-center pt-5 font-compoteFont text-deepGold"
+          >
+            Ek Sunhera <br />
+            <span class="md:mr-12 font-compoteFont">Karvaan</span>
+          </h1>
+          <img
+            src="assets/wheel.png"
+            alt=""
+            class="w-[67%] animate-wheelSize z-40 -translate-x-[75%]"
+          />
+          <div class="w-[100%] absolute h-screen overflow-x-hidden">
+            <div
+              class="w-[110%] bg-black rotate-3 flex justify-center items-baseline -translate-x-5"
+            >
+              <video
+                autoplay
+                muted
+                loop
+                class="object-contain items-baseline justify-center overflow-clip w-[80%]"
+              >
+                <source src="assets/clips/joker.mp4" type="video/mp4" />
+                <source src="assets/clips/ddlj.mp4" type="video/mp4" />
+                <source src="assets/clips/sholay clip.mp4" type="video/mp4" />
+                <source
+                  src="assets/clips/chhichhore clip.mp4"
+                  type="video/mp4"
+                />
+                <source src="assets/clips/barfi clip.mp4" type="video/mp4" />
+                <source src="assets/clips/3 idiots clip.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </section>
+      <!-- </div> -->
       <div
-        class="bg-[url('assets/bgTexture.png')] bg-cover bg-repeat-y w-full py-16"
+        class="bg-[url('assets/bgTexture.png')] bg-cover bg-repeat-y w-full py-16 z-30"
       >
-        <div id="about" class="py-20 h-screen px-16">
+        <div id="about" class="py-20 h-screen px-16 z-30">
           <h1
             class="text-5xl md:text-8xl w-full text-center md:text-right font-compoteFont md:pr-20 text-deepGold md:mb-12"
           >
