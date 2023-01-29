@@ -1,10 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"); */
 @font-face {
   font-family: "compote";
   src: url(../public/assets/fonts/compote/OTF/Compote-Free.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "lato";
+  src: url(../public/assets/fonts/Lato/Lato-Italic.ttf);
   font-weight: normal;
 }
 /* 
@@ -19,7 +24,7 @@ a {
   margin: 0;
   font-family: sans-serif;
   scroll-behavior: smooth;
-  transition: all ease 0.3s;
+  transition: all ease 0.1s;
 }
 ::-webkit-scrollbar {
   height: 0px;
