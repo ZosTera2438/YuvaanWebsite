@@ -772,7 +772,7 @@ video {
 }
 
 .animate-wheelLoad {
-  animation: wheelLoad 200s ease;
+  animation: wheelLoad 1000s ease infinite;
 }
 
 .flex-row {
