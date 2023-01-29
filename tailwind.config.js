@@ -13,7 +13,7 @@ module.exports = {
       },
       animation: {
         // wheelSize: "wheelSize 80s linear infinite ",
-        wheelLoad: "wheelLoad 200s ease ",
+        wheelLoad: "wheelLoad 1000s ease infinite",
       },
       keyframes: {
         // wheelSize: {
