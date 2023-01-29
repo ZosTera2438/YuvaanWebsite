@@ -1,3 +1,77 @@
+.readHidden{
+  visibility: hidden;
+}
+
+.header {
+  display: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__button {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  border: 0;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+
+  margin: auto;
+  outline: none;
+  animation-duration: 300ms;
+  animation-timing-function: ease;
+}
+
+.header__button[data-open="true"] {
+  background-color: #000;
+  animation-name: scale;
+}
+
+.header__button[data-open="false"] {
+  transition: background-color 250ms linear;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(100%);
+  }
+}
+
+.header__nav {
+  background-color: rgb(44 40 37);
+  opacity: 80%;
+  position: fixed;
+  /* overflow-y: hidden; */
+  z-index: -2;
+  top: 0;
+  border-radius: 50% 0% 50% 50%;
+
+  box-sizing: border-box;
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  visibility: hidden;
+  clip-path: circle(var(--radius) at calc(100% - 57px) 47px);
+}
+
+.header__nav[data-active="true"] {
+  visibility: visible;
+  /* padding: 10px; */
+}
+
+.header__menu > .header__menu-item:not(:last-of-type) {
+  margin-bottom: 0em;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
 .sliderContainer {
   padding: 0px;
   transform: rotate(354deg);
@@ -171,7 +245,6 @@
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
-
 
 .imageCrousel {
   position: relative;

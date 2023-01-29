@@ -9,16 +9,27 @@ module.exports = {
       },
       fontFamily: {
         compoteFont: ["compote", "sans-serif"],
-        // latoFont: ["Lato", "sans-serif"],
+        latoFont: ["lato", "sans-serif"],
       },
       animation: {
-        wheelSize: "wheelSize 3s ",
+        // wheelSize: "wheelSize 80s linear infinite ",
+        wheelLoad: "wheelLoad 200s ease ",
       },
       keyframes: {
-        wheelSize: {
-          "0%": { transform: " rotate(0deg) translatey(0)" },
-          "80%": { transform: " rotate(360deg) translatey(0)"},
-          "100%": { transform: " rotate(360deg) translatex(-68%)"},
+        // wheelSize: {
+        //   "0%": { transform: " rotate(90deg)" },
+        //   "100%": { transform: " rotate(-89deg)" },
+        // },
+        // wheelLoad: {
+        //   "0%": { transform: "rotate(0deg)", left:"15%" },
+        //   "70%": {transform: "rotate(420deg)", left:"15%" },
+        //   "100%": {transform: "rotate(90deg)", left:"-37%" },
+        // },
+        wheelLoad: {
+          "0%": { transform: "rotate(0deg)", left:"15%" },
+          "2%": {transform: "rotate(420deg)", left:"15%" },
+          "3%": {transform: "rotate(90deg)", left:"-37%" },
+          "100%": {transform: "rotate(-7000deg)", left:"-37%" },
         },
       },
     },
