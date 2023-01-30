@@ -3,12 +3,12 @@
 @tailwind utilities;
 @font-face {
   font-family: "compote";
-  src: url(../public/assets/fonts/compote/OTF/Compote-Free.otf);
+  src: url(assets/fonts/compote/OTF/Compote-Free.otf);
   font-weight: normal;
 }
 @font-face {
   font-family: "lato";
-  src: url(../public/assets/fonts/Lato/Lato-Italic.ttf);
+  src: url(assets/fonts/Lato/Lato-Italic.ttf);
   font-weight: normal;
 }
 /* 
