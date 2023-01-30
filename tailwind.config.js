@@ -27,8 +27,8 @@ module.exports = {
         // },
         wheelLoad: {
           "0%": { transform: "rotate(0deg)", left:"15%" },
-          "2%": {transform: "rotate(420deg)", left:"15%" },
-          "3%": {transform: "rotate(90deg)", left:"-37%" },
+          "1%": {transform: "rotate(420deg)", left:"15%" },
+          "2%": {transform: "rotate(90deg)", left:"-37%" },
           "100%": {transform: "rotate(-7000deg)", left:"-37%" },
         },
       },
