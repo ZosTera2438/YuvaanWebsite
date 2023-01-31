@@ -9602,7 +9602,7 @@
               id: 'text',
               children: (0, o.jsx)('span', {
                 children:
-                  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nam, enim quo at porro odio quam nihil,',
+                  '©2023 Yuvaan - Literature And Film Festival',
               }),
             }),
           }),
